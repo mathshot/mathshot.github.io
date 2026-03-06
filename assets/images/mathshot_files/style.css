@@ -1,0 +1,1989 @@
+/***** Reset *****/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+img {
+    max-width: 100%
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/***** Main Styles *****/
+
+body {
+	font-family:Helvetica,Arial;
+	font-size:14px;
+	color:#333333;
+	line-height:24px;
+}
+
+body.bg1 { background:#e1e1e1 url('https://www.mathshot.com/mathshot_files/style/img/backgrounds/background1.png') no-repeat; }
+body.bg2 { background:#e1e1e1 url('https://www.mathshot.com/mathshot_files/style/img/backgrounds/background2.png') no-repeat; }
+body.bg3 { background:#e1e1e1 url('https://www.mathshot.com/mathshot_files/style/img/backgrounds/background3.png') no-repeat; }
+body.bg4 { background:#e1e1e1 url('https://www.mathshot.com/mathshot_files/style/img/backgrounds/background4.png') no-repeat; }
+body.bg5 { background:#e1e1e1 url('https://www.mathshot.com/mathshot_files/style/img/backgrounds/background5.png') no-repeat; }
+body.bg6 { background:#e1e1e1 url('https://www.mathshot.com/mathshot_files/style/img/backgrounds/background6.png') no-repeat; }
+body.bg7 { background:#e1e1e1 url('https://www.mathshot.com/mathshot_files/style/img/backgrounds/background7.png') no-repeat; }
+body.bg8 { background:#e1e1e1 url('https://www.mathshot.com/mathshot_files/style/img/backgrounds/background8.png') no-repeat; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Helvetica,Arial;
+}
+
+h2 {
+	font-size:20px;
+	display:inline-block;
+	margin-top:35px;
+	margin-bottom:25px;
+}
+
+h3 {
+	font-size:18px;
+	margin-bottom:10px;
+	text-shadow:0px 1px 1px #FFF;
+}
+
+h4 {
+	font-size:18px;
+	font-weight:700;
+	margin-bottom:10px;
+	text-shadow:0px 1px 1px #FFF;
+}
+
+h5 {
+	font-size:16px;
+	font-weight:700;
+	margin-bottom:10px;
+	text-shadow:0px 1px 1px #FFF;
+}
+
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:22px;
+	color:#333333;
+	padding:10px 0;
+}
+
+p a {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:22px;
+	color:#376899;
+	text-decoration:none;
+}
+
+a {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:24px;
+	color:#376899;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.wrapper {
+	max-width:960px;
+	clear:both;
+	overflow:hidden;
+}
+
+.last {
+	margin-right:0 !important;
+}
+
+sup {
+	font-size: 11px;
+	vertical-align: top;
+}
+
+ul {
+	list-style: square outside none;
+	margin: 10px 0 20px 30px;
+}
+
+
+.clear {
+	clear:both;
+}
+
+/***** Header Styles *****/
+
+/*
+#header-wrap {
+	width:100%;
+	height:91px;
+	border-bottom:0px solid #dbdbdb;
+	background:#FFFFFF;
+}
+*/
+
+#maxwidth {
+	max-width:960px;
+    margin:0px auto;
+}
+
+#header {
+	max-width:960px;
+	margin:0 auto;
+}
+
+#bannerlogo {
+	float:right;
+	padding:2% 2% 2% 0;
+    max-width: 100%;
+}
+
+#gtlogo {
+	float:right;
+	padding:10px 10px 0 0;
+	max-width: 100%;
+}
+
+#logo {
+	float:left;
+	padding:1% 0 0;
+}
+
+#slogan {
+    background: url("https://www.mathshot.com/mathshot_files/style/img/logo-separator.png") no-repeat scroll 0 center transparent;
+    color: #696868;
+    float: left;
+    font-family: 'Rokkitt','Helvetica',sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    height: 90px;
+    line-height: 94px;
+    padding-left: 20px;
+    width: 180px;
+}
+
+#navigation {
+	float:right;
+	text-align:right;
+	margin-top:29px;
+/*	height:90px;	*/
+}
+
+#navigation li {
+	display:inline;
+	padding:0 10px;
+/*	line-height:90px;
+	height:90px;  */
+}
+
+#navigation li:last-child {
+	background:none;
+	padding-right:0;
+}
+
+#navigation li a {
+    color: #3F3F3F;
+    font-family: Helvetica, Arial;
+    font-size: 22px;
+    font-weight: bold;
+/*    line-height: 90px;	*/
+	padding: 4px 16px;
+    text-decoration: none;
+}
+#navigation li.current-menu-item a, #navigation li a:hover {
+	color:#fff; 
+	background: #0093D2; 
+	border-radius:8px; 
+	-moz-border-radius: 8px; 
+	-webkit-border-radius:8px; 
+	-khtml-border-radius:8px;
+}
+
+#navigation li a:hover	{
+	color:#5F5F5F; 
+	background: #CCD4D0;
+}
+
+#navigation li.current ul li a {
+	color:#848484;
+}
+
+#navigation li ul li {
+	padding:0px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/dropdown-middle-2.png') repeat-y;
+	height:39px;
+	line-height:39px;
+	width:151px;
+	text-align:center;
+}
+
+#navigation li ul li a {
+	font-family:'Helvetica', 'Arial', sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	color:#848484;
+	text-shadow:0px 1px 1px #000;
+	border-top:1px dotted #686868;
+	width:121px;
+	margin:0px 15px;
+	line-height:36px;
+}
+
+#navigation li ul li a:hover, #navigation li ul li.current-menu-item a {
+	color:#c6d1d1;
+}
+
+#navigation li ul li.first-item a {
+	border:none;
+}
+
+#navigation li ul li.first-item {
+	padding-top:15px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/dropdown-top-1.png') no-repeat;
+	height:36px;
+}
+
+#navigation li ul li ul li.first-item {
+	padding-top:15px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/dropdown-top-2.png') no-repeat;
+	height:36px;
+}
+
+#navigation li ul li.second-item {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/dropdown-middle-1.png') no-repeat;
+	height:39px;
+}
+
+#navigation li ul li.last-item {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/dropdown-bottom.png') no-repeat;
+	height:45px;
+}
+
+#navigation li ul li.last-item.second-item {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/dropdown-bottom-3.png') no-repeat;
+	height:45px;
+}
+
+#navigation li ul.single {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/dropdown-bottom-2.png') center bottom no-repeat;
+	padding-bottom:8px;
+}
+
+/***** Top Area Styles *****/
+
+#tophome {
+	background: url("bg-large-head-sm2.jpg") scroll center top #ffffff;
+	padding:0 0 0;
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	clear:both;
+}
+
+#top {
+	background: url("bg-head2.jpg") no-repeat scroll center top transparent;
+	padding:0px 0;
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	clear:both;
+	height:173px;
+}
+
+#top.static {
+	padding:35px 0 0px;
+	margin-bottom:-9px;
+}
+
+.tagline {
+	padding:50px 0;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/separator.png') left bottom repeat-x;
+	overflow:hidden;
+}
+
+.tagline h1 {
+    color: #ffffff;
+    font-family: Helvetica, Arial;
+    font-size: 30px;
+	font-weight:normal;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 1px 0 1px #333333;
+}
+
+.tagline h3 {
+	text-align:center;
+	font-family:Helvetica, Arial;
+	font-size:20px;
+	font-weight:normal;
+	color:#ffffff;
+	text-shadow:1px 0px 1px #333333;
+	margin-top:15px;
+}
+
+.tagline-home {
+	padding:35px 0;
+	overflow:hidden;
+}
+
+.tagline-home h1 {
+    color: #ffffff;
+    font-family: Helvetica, Arial;
+    font-size: 53px;
+	line-height:55px;
+	font-weight:normal;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 1px 0 1px #333333;
+}
+
+.tagline-home h3 {
+	text-align:center;
+	font-family:Helvetica, Arial;
+	font-size:27px;
+	line-height:32px;
+	font-weight:normal;
+	color:#ffffff;
+	text-shadow:1px 0px 1px #333333;
+	margin-top:40px;
+}
+
+
+#pagetitle h1, #pagetitle h3 {
+	text-align:left;
+}
+
+#pagetitle h1 {
+	margin-bottom:10px;
+}
+
+.tagline.no-separator {
+	padding-bottom:0;
+	background:none;
+	margin:0 auto;
+	max-width:960px;
+}
+
+.tagline-home.no-separator {
+	padding-bottom:0;
+	background:none;
+	margin:0 auto;
+	padding-left:1%;
+	padding-right:5%;
+}
+
+#features {
+	float:left;
+    max-width:600px;
+}
+
+#features .block {
+    float: left;
+    margin: 10px 20px 10px 0;
+    width: 280px;
+}
+
+#quotes {
+    float: right;
+    padding: 15px 0 10px;
+    width: 340px;
+}
+
+#quotes #box {
+    background: none repeat scroll 0 0 #E7E7E7;
+    border: 1px solid #C3C3C3;
+    padding: 12px 20px 15px;
+}
+
+#subheader {
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 15px;
+}
+
+hr.line {
+    background: url("bg-line.gif") repeat-x scroll right top transparent;
+    border: 0 none;
+    height: 1px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#quotes blockquote {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+#quotes-footer {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+#top .featured {
+	margin-top:30px;
+}
+
+#top .portfolio {
+	margin:35px 0px 10px;
+	max-width:960px;
+}
+
+#top .portfolio .portfolio-slide-wrap {
+	width:980px;
+}
+
+.portfolio .portfolio-item {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-img-bg.png') no-repeat;
+	width:280px;
+	height:157px;
+	float:left;
+	margin:0px 30px 30px 0px;
+	padding:10px;
+	position:relative;
+}
+
+.portfolio .portfolio-item .portfolio-meta {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-meta-bg.png') no-repeat;
+	width:277px;
+	height:157px;
+	position:absolute;
+	left:10px;
+	top:10px;
+	display:none;
+}
+
+.portfolio .portfolio-item .portfolio-meta h4 {
+	text-shadow:2px 0px 2px #000;
+	text-align:center;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+	color:#FFF;
+	margin:25px 0px 5px;
+}
+
+.portfolio .portfolio-item .portfolio-meta h5 {
+	text-shadow:2px 0px 2px #000;
+	text-align:center;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	color:#bdbdbd;
+}
+
+.portfolio .portfolio-item .portfolio-meta a {
+	text-shadow:0px 1px 1px #000;
+	text-align:center;
+	font-family:'Droid Serif', 'Georgia', serif;
+	font-weight:normal;
+	font-size:11px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-meta-button.png') no-repeat;
+	color:#FFF;
+	text-decoration:none;
+	width:92px;
+	height:31px;
+	display:block;
+	line-height:26px;
+	margin:13px auto 0px;
+}
+
+.portfolio .portfolio-item .like, .portfolio-single .portfolio-item-images .like {
+	height:29px;
+	position:absolute;
+	bottom:2px;
+	right:13px;
+	color:#afafaf;
+	font-family:'Arial', 'Helvetica', sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 0px 0px 30px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-like-bg.png') no-repeat;
+	cursor:pointer;
+	
+}
+
+.portfolio-single .portfolio-item-images .like {
+	z-index:30;
+	bottom:4px;
+	right:12px;
+}
+
+.portfolio .portfolio-item .like:hover, .portfolio-single .portfolio-item-images .like:hover,
+.portfolio .portfolio-item .liked, .portfolio-single .portfolio-item-images .liked {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-like-bg-hover.png') no-repeat;
+	color:#b1313f;
+}
+
+.portfolio .portfolio-item .like.loading, .portfolio-single .portfolio-item-images .like.loading {
+	min-width:18px;
+	padding-left:32px;
+}
+
+#portfolio-pager-wrap, #static-pager-wrap {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-pager-bg.png') center no-repeat;
+	height:12px;
+	max-width:960px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+#static-pager-wrap {
+	margin:20px 0 40px;
+}
+
+#portfolio-pager, #static-pager {
+	width:120px;
+	margin:0px auto;
+	height:12px;
+	padding:0 auto;
+}
+
+#portfolio-pager a.activeSlide, #static-pager a.activeSlide {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-pager-button-sel.png') center no-repeat;
+	height:12px;
+	width:12px;
+	text-indent:-9999px;
+	margin:0px 5px;
+	display:inline-block;
+}
+
+#portfolio-pager a, #static-pager a {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-pager-button.png') center no-repeat;
+	height:12px;
+	width:12px;
+	text-indent:-9999px;
+	margin:0px 5px;
+	display:inline-block;
+}
+
+#portfolio-selector-wrap {
+	height:40px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	background:#f6f6f6 url('https://www.mathshot.com/mathshot_files/style/img/portfolio-sel-bg.png');
+	float:left;
+	clear:both;
+	margin:40px 0px 8px;
+	border-top:1px solid #FFF;
+	-moz-box-shadow: 0px 1px 2px #CCC;
+	-webkit-box-shadow: 0px 1px 2px #CCC;
+	box-shadow: 0px 1px 2px #CCC;
+}
+
+#portfolio-selector-wrap .portfolio-selector {
+	padding:0px 10px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+#portfolio-selector-wrap .portfolio-selector li {
+	display:inline-block;
+	padding:0px 10px;
+	height:56px;
+}
+
+#portfolio-selector-wrap .portfolio-selector li.active {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-sel-arrow.png') center 40px no-repeat;
+}
+
+#portfolio-selector-wrap .portfolio-selector li a {
+	line-height:40px;
+	color:#656565;
+	font-family:'Droid Sans', 'Helvetica', sans-serif;
+	font-size:11.5px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#portfolio-selector-wrap .portfolio-selector li a:hover {
+	color:#808080;
+}
+
+#top .portfolio-nav {
+	overflow:hidden;
+	height:43px;
+}
+
+#top .portfolio-nav .prev, #top .portfolio-nav .next {
+	background:#f6f6f6 url('https://www.mathshot.com/mathshot_files/style/img/portfolio-sel-bg.png');
+	border-top:1px solid #FFF;
+	-moz-box-shadow:0px 1px 0px #CCC;
+	-webkit-box-shadow:0px 1px 0px #CCC;
+	box-shadow:0px 1px 0px #CCC;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	height:40px;
+	width:150px;
+	margin-right:25px;
+	float:left;
+}
+
+#top .portfolio-nav .next {
+	width:125px;
+	margin-right:0;
+}
+
+#top .portfolio-nav .prev a, #top .portfolio-nav .next a,
+#top .portfolio-nav .prev span, #top .portfolio-nav .next span {
+	display:block;
+	height:40px;
+	width:105px;
+	line-height:40px;
+	color:#565656;
+	font-family:'Droid Sans', 'Helvetica', sans-serif;
+	font-size:11.5px;
+	font-weight:bold;
+	text-decoration:none;
+	letter-spacing:0.5px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-prev-arrow.png') 20px 15px no-repeat;
+	padding:0px 0px 0px 45px;
+}
+
+#top .portfolio-nav .prev span, #top .portfolio-nav .next span {
+	color:#999999;
+}
+
+#top .portfolio-nav .next a, #top .portfolio-nav .next span {
+	width:62px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-next-arrow.png') 91px 15px no-repeat;
+	padding:0px 44px 0px 19px;
+}
+
+#top .portfolio-nav .prev a:hover, #top .portfolio-nav .next a:hover {
+	color:#808080;
+}
+
+.portfolio-single {
+	margin-top:30px;
+}
+
+.portfolio-single .portfolio-item-images {
+	overflow:hidden;
+	position:relative;
+}
+
+.portfolio-single .portfolio-item-images .portfolio-images-top {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-single-top.png') no-repeat;
+	height:7px;
+	width:630px;`
+}
+
+.portfolio-single .portfolio-item-images .portfolio-images-bottom {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-single-bottom.png') no-repeat;
+	height:10px;
+	width:630px;
+}
+
+.portfolio-single .portfolio-item-images .portfolio-images-wrap {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-single-middle.png') repeat-y;
+	width:630px;
+	padding:4px 11px;
+}
+
+.portfolio-single .portfolio-item-images .portfolio-images {
+	overflow:hidden;
+}
+
+.portfolio-single .item-details h3 {
+	margin-bottom:0;
+}
+
+.portfolio-single .item-details p {
+	margin-top:0;
+	margin-bottom:15px;
+}
+
+.portfolio-single .item-details .tweet-button {
+	float:right;
+	width:60px;
+	height:70px;
+	margin:0px 0px 20px 20px;
+}
+
+.portfolio-single #portfolio-pager {
+	width:630px;
+	margin:15px auto 25px;
+	height:7px;
+	padding:0 auto;
+	text-align:center;
+}
+
+.portfolio-single #portfolio-pager a.activeSlide {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-single-pager-sel.png') center no-repeat;
+	height:7px;
+	width:7px;
+	text-indent:-9999px;
+	margin:0px 3px;
+	display:inline-block;
+}
+
+.portfolio-single #portfolio-pager a {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/portfolio-single-pager.png') center no-repeat;
+	height:7px;
+	width:7px;
+	text-indent:-9999px;
+	margin:0px 3px;
+	display:inline-block;
+}
+
+#searcharea {
+	padding-top:10px;
+}
+
+#s {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/search-bg.png') no-repeat;
+	width:298px;
+	height:34px;
+	border:none;
+	padding:1px 25px 0px 42px;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:15px;
+	color:#c0c0c0;
+}
+
+.screen-reader-text, #searchsubmit {
+	display:none;
+}
+
+/***** Content Styles *****/
+
+#content-wrap {
+	width:100%;
+	border-top:0px solid #dbdbdb;
+	border-bottom:0px solid #dbdbdb;
+	background:#FFFFFF;
+	overflow:hidden;
+	padding-top:15px;
+}
+
+#content {
+	max-width:960px;
+	margin:0 auto;
+	padding:10px 0;
+	overflow:hidden;
+}
+
+ul.header-links {
+	display:inline;
+	margin-left:20px;
+}
+
+ul.header-links li {
+	padding:0px 20px;
+	display:inline-block;
+	height:26px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/title-subnav-separator.png') left center no-repeat;
+}
+
+ul.header-links li a {
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:700;
+	color:#508d9c;
+	font-size:14px;
+	text-decoration:none;
+}
+
+ul.header-links li a:hover {
+	text-decoration:underline;
+}
+
+#signature {
+    text-align: right;
+}
+
+/***** Blog Styles *****/
+
+.hidden {
+	display:none;
+}
+
+.blog-module-latest, .blog-module-popular {
+	overflow:hidden;
+}
+
+.post-box {
+	width:300px;
+	float:left;
+	margin-right:30px;
+	border-top:1px dashed #c9c9c9;
+	border-bottom:1px dashed #c9c9c9;
+	padding:30px 0px;
+}
+
+.post-box .post-image {
+	width:50px;
+	float:left;
+	margin-right:15px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/img-bg-small.png') no-repeat;
+	padding:6px 7px;
+}
+
+.post-box .post-image img {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.post-box .post-content {
+	width:216px;
+	float:left;
+	padding-right:5px;
+}
+
+.post-box .post-content h6 a {
+	color:#656565;
+	font-family:'Droid Sans', 'Helvetica', sans-serif;
+	font-size:11.5px;
+	line-height:21px;
+	letter-spacing:0.5px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:10px 0px;
+}
+
+.post-box .post-content h6 a:hover {
+	color:#808080;
+}
+
+.post-box .post-content p.meta {
+	margin:5px 0px;
+}
+
+.post-box .post-content p.meta a {
+	color:#508d9c;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	text-decoration:none;
+}
+
+.post-box .post-content p.meta a:hover {
+	text-decoration:underline;
+}
+
+#blog-fullwidth {
+	margin-top:30px;
+}
+
+#blog-fullwidth .blogpost {
+	overflow:hidden;
+	border-bottom:1px dashed #c9c9c9;
+	padding-bottom:40px;
+	margin-bottom:40px;
+}
+
+#blog-fullwidth .blogpost .post-meta {
+	width:445px;
+	float:left;
+	padding-right:35px;
+}
+
+#blog-fullwidth .blogpost .post-meta h2 {
+	margin-top:0;
+	margin-bottom:0px;
+}
+
+#blog-fullwidth .blogpost .post-meta h2 a {
+	color:#555555;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:25px;
+	text-decoration:none;
+	line-height:28px;
+	letter-spacing:0.7px;
+	padding:10px 0px;
+}
+
+#blog-fullwidth .blogpost .post-meta h2 a:hover {
+	color:#696969;
+}
+
+#blog-fullwidth .blogpost .post-meta .date {
+	background:transparent url('https://www.mathshot.com/mathshot_files/style/img/blog-clock.png') 0px 2px no-repeat;
+	margin-right:12px;
+	padding-left:15px;
+}
+
+#blog-fullwidth .blogpost .post-meta .categories {
+	background:transparent url('https://www.mathshot.com/mathshot_files/style/img/blog-tag.png') 0px 3px no-repeat;
+	margin-right:12px;
+	padding-left:15px;
+}
+
+#blog-fullwidth .blogpost .post-meta .comments {
+	background:transparent url('https://www.mathshot.com/mathshot_files/style/img/blog-speech-bubble.png') 0px 4px no-repeat;
+	margin-right:12px;
+	padding-left:15px;
+}
+
+#blog-fullwidth .blogpost .post-meta .date,
+#blog-fullwidth .blogpost .post-meta .categories a,
+#blog-fullwidth .blogpost .post-meta .comments a {
+	color:#508d9c;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#blog-fullwidth .blogpost .post-meta .categories a:hover,
+#blog-fullwidth .blogpost .post-meta .comments a:hover {
+	text-decoration:underline;
+}
+
+#blog-fullwidth .blogpost .post-content {
+	width:445px;
+	border-left:1px dashed #c9c9c9;
+	float:left;
+	padding-left:30px;
+}
+
+#blog-fullwidth .blogpost .post-content .post-image {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/blog-img-bg-small.png') no-repeat;
+	padding:13px 12px;
+	float:left;
+	margin:0px 20px 5px 0px;
+}
+
+#blog .blogpost-single {
+	overflow:hidden;
+	margin-bottom:25px;
+}
+
+#blog .blogpost-single .post-meta .post-image {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/blog-single-img-bg.png') no-repeat;
+	padding:12px;
+	margin-bottom:20px;
+}
+
+#blog .blogpost-single .post-meta {
+	float:left;
+	width:225px;
+	margin-right:25px;
+}
+
+#blog .blogpost-single .post-content {
+	float:left;
+	width:380px;
+	margin-right:0px;
+}
+
+#blog .blogpost-single .post-meta .meta li {
+	float:right;
+	clear:both;
+}
+
+#blog .blogpost-single .post-content h2 {
+	margin-top:0;
+	margin-bottom:0px;
+	color:#555555;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:700;
+	font-size:18px;
+	text-decoration:none;
+	line-height:28px;
+	letter-spacing:0.7px;
+}
+
+#blog .blogpost-single .post-meta .date {
+	background:transparent url('https://www.mathshot.com/mathshot_files/style/img/blog-clock.png') 0px 6px no-repeat;
+	margin-right:2px;
+	padding-left:15px;
+}
+
+#blog .blogpost-single .post-meta .categories {
+	background:transparent url('https://www.mathshot.com/mathshot_files/style/img/blog-tag.png') 0px 7px no-repeat;
+	margin-right:2px;
+	padding-left:15px;
+}
+
+#blog .blogpost-single .post-meta .comments {
+	background:transparent url('https://www.mathshot.com/mathshot_files/style/img/blog-speech-bubble.png') 0px 8px no-repeat;
+	margin-right:2px;
+	padding-left:15px;
+}
+
+#blog .blogpost-single .post-meta .date,
+#blog .blogpost-single .post-meta .categories a,
+#blog .blogpost-single .post-meta .comments a,
+#blog .blogpost-single .post-content p.meta a {
+	color:#508d9c;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#blog .blogpost-single .post-meta .categories a:hover,
+#blog .blogpost-single .post-meta .comments a:hover,
+#blog .blogpost-single .post-content p.meta a:hover {
+	text-decoration:underline;
+}
+
+#blog p.meta {
+	margin-bottom:0;
+}
+
+#blog, #page {
+	margin-top:0px;
+	overflow:hidden;
+}
+
+#blog .blogpost {
+	padding-bottom:30px;
+	border-bottom:1px dashed #c9c9c9;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+
+#blog .blogpost h2 {
+	margin-top:0;
+	margin-bottom:5px;
+}
+
+#blog .blogpost h2 a {
+	color:#606060;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:700;
+	font-size:18px;
+	text-decoration:none;
+	line-height:28px;
+	letter-spacing:0.7px;
+	padding:10px 0px;
+}
+
+#blog .blogpost h2 a:hover {
+	color:#757575;
+}
+
+#blog .blogpost .post-image {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/blog-img-bg-large.png') no-repeat;
+	overflow:hidden;
+	height:183px;
+	padding:13px;
+	width:302px;
+}
+
+#blog .post-box {
+	border-top:none;
+	margin-bottom:30px;
+	padding-top:0px;
+}
+
+#blog .post-box .post-content h6 a {
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	color:#444444;
+	line-height:26px;
+}
+
+#blog .post-box .post-content h6 a:hover {
+	color:#656565;
+}
+
+#blog .blogpost p.meta a {
+	color:#508d9c;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#blog .blogpost p.meta a:hover {
+	text-decoration:underline;
+}
+
+#blog .about {
+	background:#F6F6F6;
+	border:1px solid #E6E6E6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width:568px;
+	padding:30px;
+	overflow:hidden;
+	margin-bottom:35px;
+}
+
+#blog .about h3 {
+	margin-bottom:20px;
+}
+
+#blog .about .avatar {
+	width:75px;
+	margin-right:25px;
+	float:left;
+}
+
+#blog .about .text {
+	width:468px;
+	float:left;
+	font-family:'Droid Serif', 'Georgia', sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:#7E7E7E;
+	padding-top:10px;
+}
+
+#comments h4, #comments h4 a {
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+	padding-bottom:20px;
+	border-bottom:1px solid #C9C9C9;
+	color:#757575;
+	margin-bottom:30px;
+}
+
+#comments .comment h5, #comments .comment-inner h5, #comments .comment-inner-inner h5,
+#comments .comment h5 a, #comments .comment-inner h5 a, #comments .comment-inner-inner h5 a {
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+	color:#757575;
+	letter-spacing:0.7px;
+	text-decoration:none;
+}
+
+#comments .comment h5 a:hover, #comments .comment-inner h5 a:hover, #comments .comment-inner-inner h5 a:hover {
+	text-decoration:underline;
+}
+
+#comments .comment p.meta, #comments .comment-inner p.meta, #comments .comment-inner-inner p.meta,
+#comments .comment p.meta a, #comments .comment-inner p.meta a, #comments .comment-inner-inner p.meta a {
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:14px;
+}
+
+#comments .children .children {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/comment-line-4.png') 34px 0px repeat-y;
+}
+
+#comments .children .comment-inner.last + .children {
+	background:none;
+}
+
+#comments .comment {
+	padding-bottom:30px;
+	overflow:hidden;
+	background:transparent;
+}
+
+#comments .comment-inner {
+	padding-left:81px;
+	padding-bottom:30px;
+	overflow:hidden;
+	background:transparent;
+}
+
+#comments .comment-inner-inner {
+	padding-left:163px;
+	padding-bottom:30px;
+	overflow:hidden;
+}
+
+#comments .comment .avatar, #comments .comment-inner .avatar, #comments .comment-inner-inner .avatar {
+	width:75px;
+	float:left;
+	margin-right:25px;
+}
+
+#comments .comment .avatar img, #comments .comment-inner .avatar img, #comments .comment-inner-inner .avatar img {
+	-webkit-box-shadow:0px -1px 1px #D4D5D5;
+	-moz-box-shadow:0px -1px 1px #D4D5D5;
+	box-shadow:0px -1px 1px #D4D5D5;
+	margin-top:1px;
+}
+
+
+
+#comments .comment, #comments .comment-inner, #comments .comment-inner-inner {
+	background-image:url('https://www.mathshot.com/mathshot_files/style/img/comment-line-3.png');
+	background-repeat:no-repeat;
+}
+
+#comments .comment.last, #comments .comment-inner.last, #comments .comment-inner-inner.last {
+	background-image:url('https://www.mathshot.com/mathshot_files/style/img/comment-line-5.png');
+}
+
+#comments .comment.nochildren, #comments .comment-inner.nochildren, #comments .comment-inner-inner.nochildren {
+	background-image:url('https://www.mathshot.com/mathshot_files/style/img/comment-line-6.png');
+}
+
+#comments .comment.last.nochildren, #comments .comment-inner.last.nochildren, #comments .comment-inner-inner.last.nochildren {
+	background-image:url('https://www.mathshot.com/mathshot_files/style/img/comment-line-7.png');
+}
+
+#comments .comment {
+	background-position:-50px -115px;
+}
+
+#comments .comment-inner {
+	background-position:34px -115px;
+}
+
+#comments .comment-inner-inner {
+	background-position:118px -115px;
+}
+
+#comments .comment .text {
+	width:530px;
+	float:left;
+}
+
+#comments .comment-inner .text {
+	width:449px;
+	float:left;
+}
+
+#comments .comment-inner-inner .text {
+	width:367px;
+	float:left;
+}
+
+#leave-comment h4, #contact-form h4, 
+#leave-comment h4 a, #contact-form h4 a {
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+	padding-top:20px;
+	border-top:1px solid #C9C9C9;
+	border-bottom:0;
+	padding-bottom:0;
+	color:#757575;
+	margin-bottom:20px;
+	letter-spacing:0.7px;
+}
+
+#leave-comment h4 a, #contact-form h4 a {
+	border:none;
+	text-decoration: none
+}
+
+#leave-comment h4 a:hover, #contact-form h4 a:hover {
+	color:#959595;
+}
+
+.comment-form label {
+	font-family:'Droid Serif', 'Georgia', sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	color:#A4A4A4;a39c5c
+}
+
+.comment-form label span {
+	color:#a39c5c;
+}
+
+.comment-form #name, .comment-form #email, .comment-form #author, 
+.comment-form #url, .comment-form #website, .comment-form #comment {
+	background:#fbfbfb url('https://www.mathshot.com/mathshot_files/style/img/portfolio-sel-bg.png');
+	height:30px;
+	width:245px;
+	border:1px solid #EFEFEF;
+	border-bottom:0;
+	display:block;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow:inset 0px 1px 0px #EEEEEE;
+	margin-bottom:15px;
+	color:#878787;
+	padding:0px 10px;
+}
+
+.comment-form #comment {
+	height:230px;
+	width:618px;
+	resize:none;
+	font-family:'Droid Sans', 'Helvetica', sans-serif;
+	font-size:11.5px;
+	line-height:24px;
+	letter-spacing:0.5px;
+	padding:10px 0px 0px 10px;
+	margin-bottom:25px;
+}
+
+.comment-form #submit {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/post-comment-bg.png') no-repeat;
+	height:39px;
+	width:179px;
+	border:none;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:15px;
+	color:#FFF;
+	text-shadow:0px 1px 1px #666;
+	cursor:pointer;
+}
+
+.comment-form #submit:hover {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/post-comment-bg-hover.png') no-repeat;
+}
+
+h3.responseText {
+	margin-top:15px;
+}
+
+label.error {
+	color:#c40808;
+}
+
+.pagination  {
+	height:30px;
+}
+
+.pagination li {
+	float:left;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:16px;
+}
+
+.pagination li a {
+	color:#828282;
+	text-decoration:none;
+	display:block;
+	padding:3px 13px;
+	height:18px;
+	line-height:19px;
+	margin-right:5px;
+}
+
+.pagination li span.ellipsis {
+	padding-top:5px;
+	display:block;
+	margin:0px 13px 0px 10px;
+}
+
+.pagination li span.prev {
+	padding:0px;
+	display:block;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/prev.png') 5px 8px no-repeat;
+	height:30px;
+	width:25px;
+	padding-top:5px;
+	display:block;
+	margin-right:0;
+}
+
+.pagination li span.next {
+	padding:0px;
+	display:block;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/next.png') 3px 8px no-repeat;
+	height:30px;
+	width:25px;
+	padding-top:5px;
+	display:block;
+}
+
+.pagination li span.prev a, .pagination li span.next a {
+	padding:0px;
+	height:25px;
+	width:25px;
+}
+
+.pagination li a:hover {
+	color:#AAA;
+}
+
+.pagination li.current a, .pagination li.current span {
+	padding:7px 13px;
+	height:18px;
+	line-height:19px;
+	background:#7ea9b4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color:#FFF;
+	margin-right:8px;
+}
+
+.pagination li.current a:hover {
+	background:#90bdc8;
+}
+
+.read-more, .more-link {
+	color:#508d9c;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	text-decoration:none;
+}
+
+.read-more:hover, .more-link:hover {
+	text-decoration:underline;
+}
+
+.column-1 {
+	clear:both;
+	max-width:960px;
+}
+
+.column-2 {
+	width:465px;
+	float:left;
+	margin-right:30px;
+}
+
+.column-2-thirds {
+	width:630px;
+	float:left;
+	margin-right:30px;
+}
+
+.column-2-thirds-page {
+	width:550px;
+	float:left;
+	padding:0 45px 10px 0;
+	min-height:450px;
+	border-right:1px solid #DEDEDE;
+}
+
+.column-2-thirds-hometitle {
+	width:370px;
+	float:right;
+	padding:0 400px 100px 0;
+}
+
+.column-3 {
+	width:300px;
+	float:left;
+	margin-right:30px;
+}
+
+.column-3-right {
+	width:325px;
+	float:right;
+	margin-right:30px;
+}
+
+.column-3-right-home {
+	width:550px;
+	float:right;
+	margin-right:0px;
+	top:-70px;
+	position:relative;
+}
+
+.column-4 {
+	width:217px;
+	float:left;
+	margin-right:30px;
+}
+
+.column-5 {
+	width:168px;
+	float:left;
+	margin-right:30px;
+}
+
+.column-6 {
+	width:135px;
+	float:left;
+	margin-right:30px;
+}
+
+.widget {
+	margin-bottom:30px;
+}
+
+.feed-counter {
+	background:#F6F6F6;
+	border:1px solid #E6E6E6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:70px;
+	padding:0px 39px;
+	margin-bottom:30px;
+}
+
+.feed-counter .rss-counter, .feed-counter .twitter-counter {
+	padding-left:45px;
+	line-height:70px;
+	width:45px;
+	float:left;
+	height:70px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/rss.png') 0px 19px no-repeat;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:20px;
+	margin-right:40px;
+	letter-spacing:0.7px;
+	text-align:center;
+}
+
+.feed-counter .rss-counter a, .feed-counter .twitter-counter a {
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:20px;
+	text-decoration:none;
+	color:#606060;
+}
+
+.feed-counter .rss-counter a:hover, .feed-counter .twitter-counter a:hover {
+	color:#757575;
+}
+
+.feed-counter .twitter-counter {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/twitter.png') 0px 19px no-repeat;
+	margin-right:0px;
+}
+
+#top .feed-counter {
+	background:#f6f6f6 url('https://www.mathshot.com/mathshot_files/style/img/portfolio-sel-bg.png');
+	border-top:1px solid #FFF;
+	-moz-box-shadow:0px 1px 0px #CCC;
+	-webkit-box-shadow:0px 1px 0px #CCC;
+	box-shadow:0px 1px 0px #CCC;
+}
+
+.sidebar {
+	margin-top:0px;
+	text-align:center;
+}
+
+.sidebar_textleft {
+	margin-top:0px;
+	text-align:left;
+}
+
+#content .sidebar-tabs {
+	background:#F6F6F6;
+	border:1px solid #E6E6E6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:40px;
+	padding:0px 10px;
+	margin-bottom:30px;
+}
+
+#content .sidebar-tabs li {
+	display:inline-block;
+	background:none;
+	height:48px;
+}
+
+#content .sidebar-tabs li.active {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/sidebar-tabs-arrow.png') center 40px no-repeat;
+}
+
+#content .sidebar-tabs li a {
+	color:#808080;
+	font-family:'Droid Sans', 'Helvetica', sans-serif;
+	font-size:11.5px;
+	font-weight:bold;
+	text-decoration:none;
+	height:40px;
+	line-height:40px;
+	padding:0px 10px;
+}
+
+#content .sidebar-tabs li a:hover, #content .sidebar-tabs li.active a {
+	color:#565656;
+}
+
+#content .tab-content .post {
+	border-bottom:1px dashed #c9c9c9;
+	overflow:hidden;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+#content .tab-content .post:last-child {
+	border-bottom:0;
+}
+
+#content .tab-content .post .date {
+	float:left;
+	width:12px;
+	height:9px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/calendar.png') left 5px no-repeat;
+	margin-right:22px;
+	padding:12px 8px;
+	font-family:'Helvetica', 'Arial', sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+}
+
+#content .tab-content .post .title {
+	width:250px;
+	float:left;
+}
+
+#content .tab-content .post .title h3 {
+	margin-bottom:0;
+}
+
+#content .tab-content .post .title h3 a {
+	color:#656565;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-weight:normal;
+	font-size:15px;
+	text-decoration:none;
+	line-height:24px;
+}
+
+#content .tab-content .post .title h3 a:hover {
+	color:#808080;
+}
+
+#content .tab-content .comment {
+	border-bottom:1px solid #c9c9c9;
+	overflow:hidden;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+#content .tab-content .comment:last-child {
+	border-bottom:0;
+}
+
+#content .tab-content .comment .avatar {
+	float:left;
+	width:65px;
+}
+
+#content .tab-content .comment .avatar img {
+	padding:8px 2px;
+	height:40px;
+	width:40px;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/avatar-bg.png') left 5px no-repeat;
+}
+
+#content .tab-content .comment .title {
+	width:235px;
+	float:left;
+	padding-top:5px;
+}
+
+#content .tab-content .comment .title h3 {
+	margin-bottom:0;
+}
+
+#content .tab-content .comment .title h3 a {
+	color:#656565;
+	font-family:'Droid Sans', 'Helvetica', sans-serif;
+	font-weight:bold;
+	font-size:11.5px;
+	text-decoration:none;
+	line-height:24px;
+	letter-spacing:0.3px;
+}
+
+#content .tab-content .comment .title h3 a:hover {
+	color:#808080;
+}
+
+#content .tags li {
+	float:left;
+	height:25px;
+	margin:0px 10px 10px 0px;
+	line-height:24px;
+	background:none;
+}
+
+#content .tags li a {
+	color:#dbd69d;
+	font-family:'Droid Serif', 'Georgia', sans-serif;
+	font-weight:normal;
+	font-style:italic;
+	font-size:11px;
+	text-decoration:none;
+	text-shadow:0px 1px 1px #000;
+	background:url('https://www.mathshot.com/mathshot_files/style/img/tag-bg.png') repeat-x;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:5px;
+	line-height:24px;
+	width:auto;
+	display:inline;
+	float:none;
+}
+
+/***** Footer Styles *****/
+
+#footer-wrap {
+	width:100%;
+	background:url("bg-footer.gif") repeat-x scroll center top #D0D9E0;
+	height:140px;
+}
+
+#footer {
+	max-width:960px;
+	margin:0 auto;
+	padding-top:40px;
+	overflow:hidden;
+}
+
+#footer p {
+	text-shadow:0px 1px 1px #FFF;
+}
+
+#footer h3 {
+	margin-bottom:25px;
+}
+
+hr.bar	{
+	background:transparent url("bg-bar.gif") repeat-x scroll right top;
+	border:0 none; 
+	height:2px; 
+	margin-top:20px; 
+	width:100%;
+}
+
+/***** Twitter Styles *****/
+
+#footer .tweet_list {
+	margin-bottom:20px;
+}
+
+#footer .tweet_list li {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/tweet-bg.png') 0px 0px no-repeat;
+	padding:0px 0px 10px 30px;
+	margin-bottom:5px;
+	padding-top:14px;
+	text-shadow:0px 1px 1px #FFF;
+}
+
+#footer .tweet_list li:first-child {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/tweet-bg.png') 0px -14px no-repeat;
+	padding-top:0px;
+}
+
+#footer .tweet_list li .tweet_text {
+	font-family:'Droid Sans', 'Helvetica', sans-serif;
+	font-size:11.5px;
+	line-height:24px;
+	letter-spacing:0.5px;
+	color:#7e7e7e;
+}
+
+#footer .tweet_list li .tweet_text a {
+	color:#508d9c;
+	text-shadow:none;
+	text-decoration:none;
+}
+
+#footer .tweet_list li .tweet_text a:hover, #footer .tweet_list li .tweet_time a:hover {
+	text-decoration:underline;
+}
+
+#footer .tweet_list li .tweet_time {
+	display:block;
+	clear:both;
+}
+
+#footer .tweet_list li:last-child {
+	border-bottom:0;
+}
+
+#footer .tweet_list li .tweet_time a {
+	color:#508d9c;
+	font-family:'Rokkitt', 'Helvetica', sans-serif;
+	font-size:14px;
+	text-shadow:none;
+	text-decoration:none;
+        font-weight: 700;
+}
+
+#small-footer {
+	max-width:960px;
+	margin:0 auto;
+/*	background:url('style/img/separator.png') left top repeat-x;  */
+	overflow:hidden;
+	padding-top:0px;
+	margin-bottom:0px;
+	text-shadow:0px 1px 1px #FFF;
+	color: #576672;
+    height: 70px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+#footnote {
+	text-align:right;
+}
+
+#small-footer a {
+	color:#5F5F5F;
+	text-decoration:none;
+	padding-left: 16px;
+}
+
+#small-footer a:hover {
+	text-decoration:underline;
+}
+
+/***** Dribbble Style *****/
+
+#footer .hcs, .sidebar .hcs {
+	width:320px;
+}
+
+#footer .hcs li, .sidebar .hcs li {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/img-bg-medium.png') no-repeat;
+	overflow:hidden;
+	padding:8px 9px;
+	margin:0px 20px 20px 0px;
+	width:68px;
+	float:left;
+}
+
+#footer .hcs li a, .sidebar .hcs li a {
+	height:65px;
+	width:65px;
+	overflow:hidden;
+	display:block;
+}
+
+#footer .hcs li img, .sidebar .hcs li img {
+	height:65px;
+	width:auto;
+}
+
+.dribbble-fullwidth {
+	overflow:hidden;
+	width:986px;
+}
+
+.dribbble-fullwidth .hcs li {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/img-bg-large.png') no-repeat;
+	overflow:hidden;
+	padding:8px 9px;
+	margin:0px 26px 25px 0px;
+	width:120px;
+	height:120px;
+	float:left;
+}
+
+.dribbble-fullwidth .hcs li a {
+	height:115px;
+	width:115px;
+	overflow:hidden;
+	display:block;
+}
+
+.dribbble-fullwidth .hcs li img {
+	height:115px;
+	width:auto;
+}
+
+/***** Widget Styles *****/
+
+.widget ul li {
+	background:url('https://www.mathshot.com/mathshot_files/style/img/separator.png') left bottom repeat-x;
+}
+
+.widget ul li a, .widget ul li {
+	color:#7b7b7b;
+	font-size:12px;
+	line-height:36px;
+	display:block;
+	text-decoration:none;
+}
+
+.widget ul li a {
+	float:left;
+	text-align:left;
+	width:100%;
+}
+
+.widget ul li a:hover {
+	color:#508d9c;
+}
+
+.widget ul li {
+	text-align:right;
+	overflow:hidden;
+}
+
+.widget ul.tweet_list li {
+	text-align:left;
+	line-height:24px;
+}
+
+.widget ul.tweet_list li a {
+	float:none;
+	text-align:left;
+	display:inline;
+	line-height:24px;
+}
+
+#recentcomments .recentcomments {
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+#recentcomments .recentcomments a {
+	display:inline;
+}
+
+#recentcomments .recentcomments .url {
+	display:inline;
+	width: auto;
+	margin-right:4px;
+}
+
+.news-subtitle {
+	padding-bottom: 20px;
+}
