@@ -1,0 +1,14 @@
+# Site Settings
+title: "MathShot!"
+description: "Finally, an app that lets you do math without even thinking..."
+url: "https://mathshot.github.io" # Change to mathshot.com once DNS is done
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" 
+
+# Author Settings (Hides the sidebar profile for this specific site)
+author_profile: false
+
+# Site Logo
+logo: "/assets/images/mathshot/logo.png" # Make sure this matches where your logo is saved!
